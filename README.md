@@ -1,12 +1,22 @@
-- 👋 Hi, I’m @mukthapuramprasanthi
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# URL Shortener Service
 
-<!---
-mukthapuramprasanthi/mukthapuramprasanthi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+> API to create short urls using Node, Express and MongoDB
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Edit the default.json file with your mongoURI and baseUrl
+# Use production.json in production env
+
+# Run
+npm start
+```
+
+## Endpoint to create short url
+
+### POST api/url/shorten
+
+{ "longUrl": "xxxx" }
